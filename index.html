@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            background: #333;
+            color: #ffff;
+        }
+    </style>
+</head>
+<body>
+    <p id="demo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus provident molestiae atque aliquam quaerat. Perferendis quasi illo facilis, fuga inventore veritatis exercitationem ex. Eius, suscipit odit assumenda fuga quaerat quasi.</p>
+
+
+    <script>
+        const segment=`
+<span class="main"> this is a component! </span>
+
+
+        `;
+
+        document.getElementById("demo").innerHTML+=segment;
+
+    </script>
+</body>
+</html>
